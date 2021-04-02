@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define fi first
+#define se second
+#define ll long long
+#define pi pair<int,int>
+#define pl pair<ll,ll>
+#define pd pair<double,double>
+#define ld long double
+#define pld pair<ld,ld>
+#define lg length()
+#define sz size()
+#define vi vector<int>
+#define vl vector<ll>
+#define vp vector<pi>
+#define vpl vector<pl>
+#define pb push_back
+#define INF 1000000005
+#define LINF 1000000000000000005
+
+int main(){
+    ios_base :: sync_with_stdio(0); cin.tie(); cout.tie();
+
+return 0;
+}

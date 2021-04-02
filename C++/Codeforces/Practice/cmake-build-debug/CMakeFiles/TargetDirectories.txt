@@ -1,0 +1,4 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/Practice/cmake-build-debug/CMakeFiles/Practice.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/Practice/cmake-build-debug/CMakeFiles/Party.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

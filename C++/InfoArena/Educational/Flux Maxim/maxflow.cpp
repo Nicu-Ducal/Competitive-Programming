@@ -1,0 +1,57 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define debug(x) cerr << #x << " = " << x << "\n"
+#define all(x) (x).begin(),(x).end()
+#define len(x) (x).length()
+#define sqr(x) (x) * (x)
+
+using ull = unsigned long long;
+using ll = long long;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+
+template <typename T>
+ostream& operator<<(ostream &os, const vector<T> &v) { os << '{'; string sep; for (const auto &x : v) os << sep << x, sep = ", "; return os << '}'; }
+template <typename A, typename B>
+ostream& operator<<(ostream &os, const pair<A, B> &p) { return os << '(' << p.first << ", " << p.second << ')'; }
+
+const int INF = INT_MAX;
+const int MOD = 1e9 + 7;
+const double EPS = 1e-9;
+const double PI = acos(-1);
+
+ll t, n;
+
+struct Graph {
+    vector<vector<pii>> adj;
+
+    Graph(int n = -1) {
+        init(n);
+    }
+
+    void init(int n) {
+        adj.resize(n + 1);
+    }
+
+    void addEdge(int u, int v, int flow) {
+        adj[u].push_back({v, flow});
+    }
+};
+
+int main(){
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    /// mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+    ifstream cin("maxflow.in");
+    /// ofstream cout("maxflow.out");
+
+    int m, u, v, flow;
+    cin >> n >> m;
+    Graph g(n);
+    for (int i = 1; i <= m; i++) {
+        cin >> u >> v >> flow;
+        g.addEdge(u, v, flow);
+    }
+
+    return 0;
+}

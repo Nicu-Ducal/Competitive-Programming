@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Tempest/main.cpp
+bits/stdc++.h
+-
+

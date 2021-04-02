@@ -1,0 +1,8 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/FMI_No_Stress_10.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/loterie.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/margiki.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/prieteni2.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/drum7.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/FMI No Stress 10/cmake-build-debug/CMakeFiles/stv.dir

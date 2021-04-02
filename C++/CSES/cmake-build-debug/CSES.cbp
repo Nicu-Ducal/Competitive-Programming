@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CSES"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playlist">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/playlist.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 playlist"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playlist/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/playlist.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 playlist/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSES">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/CSES.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSES"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CSES/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/CSES.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 CSES/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="missing_coin_sum">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/missing_coin_sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 missing_coin_sum"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="missing_coin_sum/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/missing_coin_sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 missing_coin_sum/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maximum_subarray_sum">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/maximum_subarray_sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 maximum_subarray_sum"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maximum_subarray_sum/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/maximum_subarray_sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 maximum_subarray_sum/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stick_lengths">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/stick_lengths.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 stick_lengths"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stick_lengths/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/stick_lengths.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 stick_lengths/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counting_rooms">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/counting_rooms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 counting_rooms"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="counting_rooms/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/counting_rooms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 counting_rooms/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="labyrinth">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/labyrinth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 labyrinth"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="labyrinth/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/labyrinth.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 labyrinth/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/counting_rooms.cpp">
+			<Option target="counting_rooms"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/labyrinth.cpp">
+			<Option target="labyrinth"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/maximum_subarray_sum.cpp">
+			<Option target="maximum_subarray_sum"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/missing_coin_sum.cpp">
+			<Option target="missing_coin_sum"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/playlist.cpp">
+			<Option target="playlist"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/stick_lengths.cpp">
+			<Option target="stick_lengths"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/sum_of_two_values.cpp">
+			<Option target="CSES"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/CSES/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

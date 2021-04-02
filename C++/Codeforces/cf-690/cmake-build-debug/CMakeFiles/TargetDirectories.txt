@@ -1,0 +1,4 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-690/cmake-build-debug/CMakeFiles/cf_690.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-690/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-690/cmake-build-debug/CMakeFiles/auxiliar.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-690/cmake-build-debug/CMakeFiles/rebuild_cache.dir

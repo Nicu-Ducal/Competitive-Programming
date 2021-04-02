@@ -1,0 +1,143 @@
+/**
+ *  Author: Neeecu
+ *  Data structure: Trie
+ *  Algorithm: Aho-Corasick
+ */
+struct TrieNode {
+    int viz;
+    bool ending;
+    //string word;
+    unordered_map<char, TrieNode*> children;
+    TrieNode* parent;
+    TrieNode* suffix;
+
+
+    TrieNode() : viz(0), ending(false)/*, word("$")*/, parent(nullptr), suffix(nullptr) {}
+};
+
+struct Trie {
+    TrieNode* root;
+    vector<TrieNode*> reverse_bfs;
+
+    Trie() {
+        root = new TrieNode();
+        root->suffix = nullptr;
+    }
+
+    void insert(string s) {
+        TrieNode* curr = root;
+        for (int i = 0; i < (int) s.length(); i++) {
+            if (curr->children.find(s[i]) == curr->children.end()) {
+                curr->children[s[i]] = new TrieNode();
+                curr->children[s[i]]->parent = curr;
+                //curr->children[s[i]]->word = curr->word + s[i];
+            }
+            curr = curr->children[s[i]];
+        }
+
+        curr->ending = true;
+    }
+
+    void remove(string s) {
+        _remove(s, 0, root);
+    }
+
+    bool _remove(string s, int i, TrieNode* curr) {
+        if (i == (int) s.length()) {
+            curr->ending = 0;
+            return (curr->ending == 0 and curr->children.size() == 0);
+        }
+        TrieNode* node = curr->children[s[i]];
+        bool should_remove = _remove(s, i + 1, node);
+
+        if (should_remove) {
+            curr->children.erase(s[i]);
+            return (curr->ending == 0 and curr->children.size() == 0 and curr != root);
+        }
+        return false;
+    }
+
+    int longest_prefix(string s) {
+        TrieNode* curr = root;
+        for (int i = 0; i < (int) s.length(); i++) {
+            if (curr->children.find(s[i]) == curr->children.end())
+                return i;
+            curr = curr->children[s[i]];
+        }
+
+        return s.length();
+    }
+
+    /// For Aho-Corasick algorithm
+    /// This builds the reverse BFS as well
+    void build_suffix_links() {
+        queue<TrieNode*> q;
+        reverse_bfs.push_back(root);
+        for (auto [ch, node]: root->children) {
+            q.push(node);
+            node->suffix = root;
+        }
+
+        while (not q.empty()) {
+            TrieNode* cur = q.front();
+            q.pop();
+            reverse_bfs.push_back(cur);
+
+            for (auto [ch, node]: cur->children) {
+                TrieNode* par = cur->suffix;
+                while (par != nullptr and par->children[ch] == nullptr)
+                    par = par->suffix;
+                if (par == nullptr)
+                    node->suffix = root;
+                else
+                    node->suffix = par->children[ch];
+
+                q.push(node);
+            }
+
+            //cout << cur->word << " " << cur->suffix->word << "\n";
+        }
+        reverse(reverse_bfs.begin(), reverse_bfs.end());
+    }
+
+    /// Counts the number of words
+    void check_text(string text) {
+        TrieNode* cur = root;
+        cur->viz++;
+        for (int i = 0; i < (int) text.length(); i++) {
+            //cout << i << " " << cur->word << " " << text[i] << " "; // to_del
+            if (cur->children[text[i]] != nullptr) {
+                cur = cur->children[text[i]];
+            } else {
+                cur = cur->suffix;
+                while (cur != nullptr and cur->children[text[i]] == nullptr)
+                    cur = cur->suffix;
+
+                if (cur == nullptr)
+                    cur = root;
+                else
+                    cur = cur->children[text[i]];
+            }
+            cur->viz++;
+            //cout << cur->word << "\n"; // to del
+        }
+
+        // Now we should traverse a reverse BFS to count total vizits
+        for (auto node: reverse_bfs) {
+            if (node->parent != nullptr)
+                node->suffix->viz += node->viz;
+        }
+    }
+
+    /// Returns the number of word in text
+    int count(string s) {
+        TrieNode* cur = root;
+        for (int i = 0; i < (int) s.length(); i++) {
+            cur = cur->children[s[i]];
+        }
+
+        if (cur->ending == true) {
+            return cur->viz;
+        }
+    }
+};

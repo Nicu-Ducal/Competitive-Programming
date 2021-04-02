@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\auxiliar.dir/objects.a
+C:\Programs\msys2-mingw64-9\bin\ar.exe cr CMakeFiles\auxiliar.dir/objects.a @CMakeFiles\auxiliar.dir\objects1.rsp
+C:\Programs\msys2-mingw64-9\bin\g++.exe -std=c++17 -Wall -Wextra -pedantic -g -Wfatal-errors -DLOCAL -g   -Wl,--whole-archive CMakeFiles\auxiliar.dir/objects.a -Wl,--no-whole-archive  -o auxiliar.exe -Wl,--out-implib,libauxiliar.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\auxiliar.dir\linklibs.rsp

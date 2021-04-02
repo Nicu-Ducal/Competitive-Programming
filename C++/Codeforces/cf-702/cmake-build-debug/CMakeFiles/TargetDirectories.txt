@@ -1,0 +1,5 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-702/cmake-build-debug/CMakeFiles/cf_702.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-702/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-702/cmake-build-debug/CMakeFiles/b.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-702/cmake-build-debug/CMakeFiles/c.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/cf-702/cmake-build-debug/CMakeFiles/edit_cache.dir

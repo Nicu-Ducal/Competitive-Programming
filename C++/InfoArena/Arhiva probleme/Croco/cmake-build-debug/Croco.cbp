@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Croco"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Croco">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Croco.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 Croco"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Croco/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Croco.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 Croco/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dinic">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/dinic.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 dinic"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dinic/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/dinic.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 dinic/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="alta_solutie">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/alta_solutie.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 alta_solutie"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="alta_solutie/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/alta_solutie.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 alta_solutie/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/alta_solutie.cpp">
+			<Option target="alta_solutie"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/dinic.cpp">
+			<Option target="dinic"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/main.cpp">
+			<Option target="Croco"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Croco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

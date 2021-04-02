@@ -1,0 +1,5 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/CCC 10.2020/cmake-build-debug/CMakeFiles/CCC_10_2020.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/CCC 10.2020/cmake-build-debug/CMakeFiles/level4.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/CCC 10.2020/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/CCC 10.2020/cmake-build-debug/CMakeFiles/level5.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Others/CCC 10.2020/cmake-build-debug/CMakeFiles/rebuild_cache.dir

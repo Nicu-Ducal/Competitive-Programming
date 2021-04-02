@@ -1,0 +1,4 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Cuplaj maxim de cost minim/cmake-build-debug/CMakeFiles/Cuplaj_maxim_de_cost_minim.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Cuplaj maxim de cost minim/cmake-build-debug/CMakeFiles/mincostmatching.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Cuplaj maxim de cost minim/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Cuplaj maxim de cost minim/cmake-build-debug/CMakeFiles/rebuild_cache.dir

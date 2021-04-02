@@ -1,0 +1,59 @@
+/******** Ordered Set ********
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+template <typename T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>; */
+
+#include <bits/stdc++.h>
+#define debug(x) cerr << #x << " = " << x << "\n"
+#define all(x) (x).begin(),(x).end()
+#define len length()
+#define sz size()
+#define pb push_back
+#define fi first
+#define se second
+#define pii pair<int,int>
+#define pll pair<ll,ll>
+
+using ull = unsigned long long;
+using ll = long long;
+using namespace std;
+
+template<typename T>
+ostream& operator<<(ostream &os, const vector<T> &v) { os << '{'; string sep; for (const auto &x : v) os << sep << x, sep = ", "; return os << '}'; }
+template<typename A, typename B>
+ostream& operator<<(ostream &os, const pair<A, B> &p) { return os << '(' << p.first << ", " << p.second << ')'; }
+
+const int INF = INT_MAX;
+ll t, n, x0, y0, x1, y1;
+vector<int> seg(200005);
+
+void update(int pos, int lo, int hi, int idx, int val){
+    if (idx < lo or idx > hi) return;
+    if (lo == hi and idx == lo){ seg[pos] += val; return; }
+    else {
+        int mid = lo + (hi - lo) / 2;
+        update(2 * pos + 1, lo, mid, idx, val);
+        update(2 * pos + 2, mid + 1, hi, idx, val);
+        seg[pos] = seg[2 * pos + 1] + seg[2 * pos + 2];
+    }
+}
+
+void query(){
+}
+
+int main(){
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+    mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+    ifstream cin("segment.in");
+    //ofstream cout("segment.out");
+
+    cin >> n;
+    for (int i = 0; i < n; i++){
+        cin >> x0 >> y0 >> x1 >> y1;
+
+    }
+
+    return 0;
+}

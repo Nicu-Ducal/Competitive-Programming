@@ -1,0 +1,4 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/CF-Global12/cmake-build-debug/CMakeFiles/CF_Global12.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/CF-Global12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/CF-Global12/cmake-build-debug/CMakeFiles/other.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/Codeforces/CF-Global12/cmake-build-debug/CMakeFiles/edit_cache.dir

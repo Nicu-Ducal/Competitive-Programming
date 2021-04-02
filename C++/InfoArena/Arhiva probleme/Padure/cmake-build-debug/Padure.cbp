@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Padure"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Padure">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Padure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 Padure"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Padure/fast">
+				<Option output="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Padure.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/Programs/msys2-mingw64-9/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 Padure/fast"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Programs/msys2-mingw64-9/bin/mingw32-make.exe -f &quot;C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/main.cpp">
+			<Option target="Padure"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Arhiva probleme/Padure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

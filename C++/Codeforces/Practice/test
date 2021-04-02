@@ -1,0 +1,25 @@
+double mod(double &n1, double &n2) {
+    return (n1 / n2 - floor(n1 / n2)) * n2;
+}
+
+void addDivisor(double n) {
+    double s = 1, e = ans.size(), m = floor((s + e) / 2);
+    while (s <= e) {
+        if (n == ans[m - 1]) return;
+        else if (n > ans[m - 1])
+            s = m + 1;
+        else
+            e = m - 1;
+        m = floor((s + e) / 2);
+    }
+    ans.insert(ans.begin() + m, n);
+}
+
+void findDivisors(double n) {
+    for (double i = 1; i * i <= n; i++)
+        if (not mod(n, i)) {
+            addDivisor(i);
+            if(i * i != n)
+                addDivisor(n / i);
+        }
+}
