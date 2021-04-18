@@ -1,0 +1,4 @@
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Convex Hull/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Convex Hull/cmake-build-debug/CMakeFiles/Convex_Hull.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Convex Hull/cmake-build-debug/CMakeFiles/jarvis.dir
+C:/Users/Nicu/Desktop/Competitive Programming/C++/InfoArena/Educational/Convex Hull/cmake-build-debug/CMakeFiles/rebuild_cache.dir
